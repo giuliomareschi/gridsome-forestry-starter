@@ -35,6 +35,12 @@ fields:
     - Nichlas W. Andersen
   label: Author
   default: Nichlas W. Andersen
+- name: journal_bg_color
+  type: color
+  label: Background color
+  config:
+    required: false
+    color_format: Hex
 pages:
 - journal/macos-development-environment.md
 - journal/un-nuovo-inizio.md
